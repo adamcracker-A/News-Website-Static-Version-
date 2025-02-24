@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    background-color: rgb(244, 244, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: black;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar a:hover{
+    background-color: #005dc0;
+    font-size: larger;
+    transition: 0.5s;
+}
+.navbar input{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+}
+.navbar input::placeholder{
+    color: white;
+}
+.navbar{
+    text-align: end;
+    background-color: #007BFF;
+    padding: 10px;
+}
+.press{
+    margin: 10px;
+    width: 200px;
+}
+.press img{
+    width: 200px;
+}
+.press div{
+    width: 200px;
+}
+.press {
+    text-decoration: none;
+    color: black;
+}
+.press p{
+    font-size: smaller;
+}
+
+.news-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+}
+.news-item {
+    width: 200px; 
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    animation: moving;
+    animation-duration: 2s;
+}
+.news-item:hover{
+    background-color: #007BFF;
+    color: #333;
+    transition: 0.4s;
+}
+.news-item:not(:hover){
+    background-color: #f9f9f9;
+    color: black;
+    transition: 0.4s;
+}
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.jojnd{
+    width: 100%;
+    background-color: yellow;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px;
+}
+.jojnd p{
+    display: inline;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.jojnd a{
+    color: black;
+    text-decoration: none;
+}
+.jojnd a:hover{
+    text-decoration: underline solid;
+}
+.tablephotos{
+    text-align: center;
+    width: 100%;
+}
+.firstsportphotos{
+    width: 300px;
+    height: 250px;
+    border: solid;
+}
+@keyframes moving{
+    from{transform: translateY(300%);}
+}
+.post img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+

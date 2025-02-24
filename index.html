@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <title>HOME</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #D2D2D2;
+    }
+    
+    body::before{
+        position: absolute;
+        width: min(1400px, 90vw);
+        top: 10%;
+        left: 50%;
+        height: 90%;
+        transform: translateX(-50%);
+        content: '';
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        pointer-events: none;
+    }
+    </style>
+</head>
+<body>
+<div class="title">
+    News website
+</div>
+    <nav class="navbar">
+        <div style="padding: 10px;background-color: gray; display: inline;border-radius: 10px; background: transparent;"><a href="sign up.html" style="color: black;text-decoration: none;"><i style="font-size: larger;" class='bx bx-user-circle'></i><strong>sign up</strong></a></div>
+        <input type="text" placeholder="Research">
+       <a href="https://www.bbc.com/live"><i class='bx bxs-circle'></i>live</a>
+        <a href="index.html">Home</a>
+        <a href="politics.html">Politics</a> 
+        <a href="business.html">Business</a>
+        <a href="tech.html">Technology</a>
+        <a href="sports.html">Sports</a>
+        <a href="health.html">Health</a>
+        <a href="entertainement.html">Entertainment</a>
+        <a href="science.html">Science</a>
+    </nav>
+
+<div class="banner">
+    <div class="slider" style="--quantity: 10">
+        <div class="item" style="--position: 1"><a href="sports.html"><img src="images/NBA-TV-Deal_Basketball_81922.jpg"></a><p style="color: white;">SPORTS</p></div>
+        <div class="item" style="--position: 2"><a href="science.html"><img src="images/nasa.webp"></a><p style="color: white;">SCIENCE</p></div>
+        <div class="item" style="--position: 3"><a href="tech.html"><img src="images/nvidia.webp"></a><p style="color: white;">TECHNOLOGY</p></div>
+        <div class="item" style="--position: 4"><a href="politics.html"><img src="images/trump.webp"></a><p style="color: white;">politics</p></div>
+        <div class="item" style="--position: 5"><a href="health.html"><img src="images/health.webp"></a><p style="color: white;">HEALTH</p></div>
+        <div class="item" style="--position: 6"><a href="entertainement.html"><img src="images/Tom.webp"></a><p style="color: white;">ENTERTAINEMENT</p></div>
+        <div class="item" style="--position: 7"><a href="business.html"><img src="images/amazon.webp"></a><p style="color: white;">BUSINESS</p></div>
+    </div>
+    <div class="content">
+        <div class="model"></div>
+    </div>
+</div>
+
+</body>
+</html>
